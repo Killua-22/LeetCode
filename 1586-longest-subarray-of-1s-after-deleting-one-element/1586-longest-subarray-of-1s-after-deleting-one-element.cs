@@ -2,32 +2,28 @@ public class Solution {
     public int LongestSubarray(int[] nums) {
         int i = 0;
         int j = 0;
-        int series = 0;
+        
         int max = 0;
-        bool can_del = true;
+        int deleted_zeroes = 0;
         while(j<nums.Length)
         {
-            if(nums[j]==1)
-                series++;
-            else if(nums[j]==0 && can_del)
-                can_del = false;
-            else
+            if(nums[j]==0) deleted_zeroes++;
+
+            if(deleted_zeroes>1)
             {
-                max = Math.Max(series, max);
-                if(nums[i]==1)
-                {
-                    series = 0;
-                    can_del = true;
-                    j = i;
-                }
+                if(nums[i]==0) deleted_zeroes--;
+
                 i++;
             }
-            max = Math.Max(series, max);
             
+            if(deleted_zeroes <= 1)
+            {
+                max = Math.Max(max, j - i + 1);
+            }
             j++;
 
         }
-        if(max == nums.Length) return max-1;
-        return max;
+        
+        return max-1;
     }
 }
