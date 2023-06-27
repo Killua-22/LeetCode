@@ -2,33 +2,33 @@ public class Solution {
     public int[] AsteroidCollision(int[] asteroids) {
         Stack<int> stack = new Stack<int>();
 
-        for(int i=0; i<asteroids.Length; i++)
+        foreach(int i in asteroids)
         {
-            if(stack.Count>0 && asteroids[i] < 0 && stack.Peek() > 0)
+            if(i > 0)
             {
-                
-                if((-1)*asteroids[i] > stack.Peek())
-                {
-                    stack.Pop();
-                    i--;
-                }
-                
-                else if((-1)*asteroids[i] == stack.Peek())
-                {
-                    stack.Pop();
-                }
-                    
+                stack.Push(i);
+                continue;
             }
 
-            else
-                stack.Push(asteroids[i]);
+            int j = Math.Abs(i);
+            while(stack.Any() && stack.Peek() < j && stack.Peek()>0)
+                stack.Pop();
+            
+            if(stack.Any() && stack.Peek() == j)
+            {
+                stack.Pop();
+                continue;
+            }
+
+            if(!stack.Any() || stack.Peek()<0)
+                stack.Push(i);
         }
 
         
-            int[] a = stack.ToArray();
-            Array.Reverse(a);
+        int[] a = stack.ToArray();
+        Array.Reverse(a);
             
-            return a;
+        return a;
         
         
     }
