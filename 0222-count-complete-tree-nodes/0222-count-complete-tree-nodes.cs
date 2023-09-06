@@ -13,20 +13,16 @@
  */
 public class Solution {
     
-    int Nodes(TreeNode root)
-    {
-        if(root == null)
-            return 0;
-        
-        int l = Nodes(root.left);
-        int r = Nodes(root.right);
-        
-        return 1 + l + r;
-    }
     
     public int CountNodes(TreeNode root) {
     
-        return Nodes(root);    
+        if(root == null)
+            return 0;
+        
+        int l = CountNodes(root.left);
+        int r = CountNodes(root.right);
+        
+        return 1 + l + r;
         
     }
 }
