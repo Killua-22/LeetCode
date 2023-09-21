@@ -1,5 +1,7 @@
 public class Solution {
     public int Rob(int[] nums) {
+        if(nums.Length == 0)
+            return 0;
         int[] memo = new int[nums.Length+1];
         
         memo[0] = 0;
