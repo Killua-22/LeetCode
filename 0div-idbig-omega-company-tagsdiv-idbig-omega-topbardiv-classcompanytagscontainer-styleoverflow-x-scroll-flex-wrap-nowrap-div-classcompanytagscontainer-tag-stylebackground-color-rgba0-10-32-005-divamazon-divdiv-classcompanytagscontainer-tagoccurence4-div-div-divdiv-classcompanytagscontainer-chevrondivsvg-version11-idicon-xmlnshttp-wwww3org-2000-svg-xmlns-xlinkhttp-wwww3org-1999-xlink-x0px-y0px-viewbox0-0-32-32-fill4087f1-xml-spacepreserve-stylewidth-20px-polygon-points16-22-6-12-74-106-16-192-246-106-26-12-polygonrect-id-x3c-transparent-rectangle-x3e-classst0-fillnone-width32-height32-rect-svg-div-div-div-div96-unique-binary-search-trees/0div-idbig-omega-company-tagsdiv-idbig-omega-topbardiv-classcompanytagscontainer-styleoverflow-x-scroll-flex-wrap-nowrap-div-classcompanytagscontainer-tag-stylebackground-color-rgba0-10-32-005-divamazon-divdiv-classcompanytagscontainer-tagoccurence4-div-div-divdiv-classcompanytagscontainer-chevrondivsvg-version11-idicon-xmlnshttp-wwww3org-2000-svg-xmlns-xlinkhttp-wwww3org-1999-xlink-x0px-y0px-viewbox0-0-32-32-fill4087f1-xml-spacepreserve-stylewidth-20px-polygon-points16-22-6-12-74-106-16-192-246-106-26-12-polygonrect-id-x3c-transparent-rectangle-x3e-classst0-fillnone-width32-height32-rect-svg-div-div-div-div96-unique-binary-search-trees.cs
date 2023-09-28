@@ -10,7 +10,8 @@ public class Solution {
             for(int j=1; j<=i; j++)
             {
                 dp[i] += dp[j-1] * dp[i-j];
-            }
+            }    
+                
         }
         
         return dp[n];
