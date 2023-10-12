@@ -1,15 +1,13 @@
 public class Solution {
     public string RemoveDuplicateLetters(string s) {
-        int n = s.Length;
-        bool[] visited = new bool[26];
+        int n = s.Length; 
+        
         int[] frq = new int[26];
-        Stack<char> st = new Stack<char>();
-        
         for(int i=0; i<n; i++)
-        {
-            frq[s[i] - 'a']++;
-        }
+            frq[s[i]-'a']++;
         
+        bool[] visited = new bool[26];
+        Stack<char> st = new Stack<char>();
         
         for(int i=0; i<n; i++)
         {
@@ -19,28 +17,20 @@ public class Solution {
                 continue;
             }
             
-            while(st.Count!=0 && frq[st.Peek()-'a'] > 0 && s[i] < st.Peek())
+            while(st.Count!=0 && st.Peek() > s[i] && frq[st.Peek()-'a'] > 0)
             {
-                visited[st.Peek() - 'a'] = false;
+                visited[st.Peek()-'a'] = false;
                 st.Pop();
             }
             
             st.Push(s[i]);
             visited[s[i]-'a'] = true;
             frq[s[i]-'a']--;
-                
         }
         
-        StringBuilder ans = new();
-        
-        while(st.Count!=0)
-        {
-            ans.Insert(0, st.Pop());
-        }
-        
-        
-        string temp = ans.ToString();
-        return temp;
+        char[] res = st.ToArray();
+        Array.Reverse(res);
+        return new string(res);
         
 //         Stack<char> stack = new Stack<char>();
 //         HashSet<char> seen = new HashSet<char>();
