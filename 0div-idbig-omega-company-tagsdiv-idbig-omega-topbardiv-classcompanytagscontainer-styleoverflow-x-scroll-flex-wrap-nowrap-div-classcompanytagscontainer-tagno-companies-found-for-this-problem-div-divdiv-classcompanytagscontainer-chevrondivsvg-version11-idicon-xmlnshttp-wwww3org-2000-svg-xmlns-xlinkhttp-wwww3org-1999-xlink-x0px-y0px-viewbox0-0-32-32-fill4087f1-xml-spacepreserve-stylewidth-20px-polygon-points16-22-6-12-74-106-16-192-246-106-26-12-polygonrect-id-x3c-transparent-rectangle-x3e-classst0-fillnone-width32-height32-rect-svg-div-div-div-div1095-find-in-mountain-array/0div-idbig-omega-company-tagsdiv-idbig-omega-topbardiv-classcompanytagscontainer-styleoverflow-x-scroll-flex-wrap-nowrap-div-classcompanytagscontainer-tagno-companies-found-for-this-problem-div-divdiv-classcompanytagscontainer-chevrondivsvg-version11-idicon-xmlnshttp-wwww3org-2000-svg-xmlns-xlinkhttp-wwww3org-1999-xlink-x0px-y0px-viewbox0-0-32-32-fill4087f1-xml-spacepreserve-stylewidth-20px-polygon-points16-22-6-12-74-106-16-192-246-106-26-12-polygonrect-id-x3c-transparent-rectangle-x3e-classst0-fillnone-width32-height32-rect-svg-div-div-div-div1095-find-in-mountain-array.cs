@@ -66,8 +66,6 @@ class Solution {
             int y = mountainArr.Get(mid);
             int z = mountainArr.Get(mid+1);
             
-            
-            
             if(y > x && y > z)
             {
                 peak = mid;
