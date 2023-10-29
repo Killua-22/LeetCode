@@ -3,11 +3,12 @@ public:
     
     void dfs(int node, vector<vector<int>> rooms, bool vis[])
     {
+        if(vis[node]) return;
         vis[node] = true;
         for(auto it: rooms[node])
         {
-            if(!vis[it])
-                dfs(it, rooms, vis);
+            
+            dfs(it, rooms, vis);
         }
     }
     
