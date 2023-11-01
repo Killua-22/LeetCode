@@ -1,38 +1,5 @@
 class Solution {
 public:
-//     int t[20001];
-//     int deleteAndEarn(vector<int>& nums) {
-//         sort(nums.begin(), nums.end());
-//         memset(t, -1, sizeof(t));
-//         return solve(nums, 0);
-//     }
-    
-//     int solve(vector<int>& nums, int i){
-        
-//         if(i>=nums.size())
-//             return 0;
-        
-//         if(t[i] != -1)
-//             return t[i];
-        
-//         int currValue = nums[i];
-//         int currSum = nums[i];
-//         int index = i+1;
-        
-//         while(nums[index] == currValue && index < nums.size())
-//         {
-//             currSum += nums[i];
-//             index++;
-//         }
-        
-//         while(index < nums.size() && nums[index] == currValue + 1)
-//         {
-//             index++;
-//         }
-        
-//         return t[i] = max(currSum + solve(nums, index), solve(nums, i+1));
-        
-//     }
     int t[20001]; // declaring 1 d array, to store some already computed results
     int solve(vector<int> &arr, int i)
     {
