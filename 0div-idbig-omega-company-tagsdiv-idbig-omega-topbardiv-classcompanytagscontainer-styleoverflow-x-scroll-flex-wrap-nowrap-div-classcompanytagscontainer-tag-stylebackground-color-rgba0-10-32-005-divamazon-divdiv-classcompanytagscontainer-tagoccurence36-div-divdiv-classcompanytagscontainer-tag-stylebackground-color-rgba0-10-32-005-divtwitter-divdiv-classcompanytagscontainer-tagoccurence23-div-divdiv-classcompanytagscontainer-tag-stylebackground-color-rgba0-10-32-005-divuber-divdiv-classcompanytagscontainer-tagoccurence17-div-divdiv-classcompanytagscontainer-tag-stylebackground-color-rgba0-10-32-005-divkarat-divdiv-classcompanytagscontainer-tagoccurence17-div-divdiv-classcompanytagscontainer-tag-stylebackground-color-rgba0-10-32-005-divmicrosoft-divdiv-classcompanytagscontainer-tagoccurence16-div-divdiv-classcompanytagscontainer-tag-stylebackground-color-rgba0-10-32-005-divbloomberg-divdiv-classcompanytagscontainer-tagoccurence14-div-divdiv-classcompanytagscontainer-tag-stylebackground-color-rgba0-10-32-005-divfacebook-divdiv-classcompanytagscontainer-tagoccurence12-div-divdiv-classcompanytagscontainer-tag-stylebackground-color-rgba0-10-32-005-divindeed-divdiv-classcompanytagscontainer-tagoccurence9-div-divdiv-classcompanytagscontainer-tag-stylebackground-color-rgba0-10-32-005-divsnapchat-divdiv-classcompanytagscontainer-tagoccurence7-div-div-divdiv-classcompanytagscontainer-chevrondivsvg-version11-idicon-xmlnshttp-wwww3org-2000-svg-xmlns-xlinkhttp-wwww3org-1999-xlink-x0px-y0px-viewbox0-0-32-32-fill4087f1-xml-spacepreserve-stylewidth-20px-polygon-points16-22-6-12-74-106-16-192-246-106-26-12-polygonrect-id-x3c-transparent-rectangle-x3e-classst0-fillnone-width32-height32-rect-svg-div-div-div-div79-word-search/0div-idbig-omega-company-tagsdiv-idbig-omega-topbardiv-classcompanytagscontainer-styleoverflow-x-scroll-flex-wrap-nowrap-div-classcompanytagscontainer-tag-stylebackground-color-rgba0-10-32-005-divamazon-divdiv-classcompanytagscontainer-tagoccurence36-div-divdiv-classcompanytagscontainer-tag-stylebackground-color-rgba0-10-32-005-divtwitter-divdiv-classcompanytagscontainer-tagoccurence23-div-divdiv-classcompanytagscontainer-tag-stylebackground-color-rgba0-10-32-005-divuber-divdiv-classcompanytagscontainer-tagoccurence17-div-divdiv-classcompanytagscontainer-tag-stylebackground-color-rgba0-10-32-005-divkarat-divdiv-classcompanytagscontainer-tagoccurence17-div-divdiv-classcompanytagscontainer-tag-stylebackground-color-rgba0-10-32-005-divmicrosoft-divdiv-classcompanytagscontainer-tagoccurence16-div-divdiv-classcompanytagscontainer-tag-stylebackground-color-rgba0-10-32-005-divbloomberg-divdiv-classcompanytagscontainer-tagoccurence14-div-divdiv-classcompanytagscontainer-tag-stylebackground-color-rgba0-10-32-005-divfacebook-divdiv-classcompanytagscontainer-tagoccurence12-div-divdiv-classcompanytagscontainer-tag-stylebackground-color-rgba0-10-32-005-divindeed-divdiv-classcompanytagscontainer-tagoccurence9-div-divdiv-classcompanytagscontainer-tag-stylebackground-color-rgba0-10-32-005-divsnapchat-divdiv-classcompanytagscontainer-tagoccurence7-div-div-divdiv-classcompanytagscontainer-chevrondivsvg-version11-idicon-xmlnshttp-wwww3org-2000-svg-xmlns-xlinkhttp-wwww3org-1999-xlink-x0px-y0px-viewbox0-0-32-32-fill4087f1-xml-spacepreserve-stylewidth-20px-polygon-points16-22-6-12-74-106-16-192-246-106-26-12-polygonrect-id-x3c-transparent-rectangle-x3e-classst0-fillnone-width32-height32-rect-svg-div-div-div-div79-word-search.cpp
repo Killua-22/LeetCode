@@ -18,6 +18,8 @@ public:
             return false;
         if(vis[i][j])
             return false;
+        if(board[i][j] != target[s.length()])
+            return false;
         
         vis[i][j] = true;
         
@@ -26,8 +28,9 @@ public:
         for(int k=0; k<4; k++) {
             if(can)
                 return true;
-            if(board[i][j] == target[s.length()])
-                can = backtracking(board, vis, target, m, n, i + dx[k], j + dy[k], s + board[i][j]);
+            // if(board[i][j] == target[s.length()])
+            //     can = backtracking(board, vis, target, m, n, i + dx[k], j + dy[k], s + board[i][j]);
+            can = backtracking(board, vis, target, m, n, i + dx[k], j + dy[k], s + board[i][j]);
         }
         
         vis[i][j] = false;
