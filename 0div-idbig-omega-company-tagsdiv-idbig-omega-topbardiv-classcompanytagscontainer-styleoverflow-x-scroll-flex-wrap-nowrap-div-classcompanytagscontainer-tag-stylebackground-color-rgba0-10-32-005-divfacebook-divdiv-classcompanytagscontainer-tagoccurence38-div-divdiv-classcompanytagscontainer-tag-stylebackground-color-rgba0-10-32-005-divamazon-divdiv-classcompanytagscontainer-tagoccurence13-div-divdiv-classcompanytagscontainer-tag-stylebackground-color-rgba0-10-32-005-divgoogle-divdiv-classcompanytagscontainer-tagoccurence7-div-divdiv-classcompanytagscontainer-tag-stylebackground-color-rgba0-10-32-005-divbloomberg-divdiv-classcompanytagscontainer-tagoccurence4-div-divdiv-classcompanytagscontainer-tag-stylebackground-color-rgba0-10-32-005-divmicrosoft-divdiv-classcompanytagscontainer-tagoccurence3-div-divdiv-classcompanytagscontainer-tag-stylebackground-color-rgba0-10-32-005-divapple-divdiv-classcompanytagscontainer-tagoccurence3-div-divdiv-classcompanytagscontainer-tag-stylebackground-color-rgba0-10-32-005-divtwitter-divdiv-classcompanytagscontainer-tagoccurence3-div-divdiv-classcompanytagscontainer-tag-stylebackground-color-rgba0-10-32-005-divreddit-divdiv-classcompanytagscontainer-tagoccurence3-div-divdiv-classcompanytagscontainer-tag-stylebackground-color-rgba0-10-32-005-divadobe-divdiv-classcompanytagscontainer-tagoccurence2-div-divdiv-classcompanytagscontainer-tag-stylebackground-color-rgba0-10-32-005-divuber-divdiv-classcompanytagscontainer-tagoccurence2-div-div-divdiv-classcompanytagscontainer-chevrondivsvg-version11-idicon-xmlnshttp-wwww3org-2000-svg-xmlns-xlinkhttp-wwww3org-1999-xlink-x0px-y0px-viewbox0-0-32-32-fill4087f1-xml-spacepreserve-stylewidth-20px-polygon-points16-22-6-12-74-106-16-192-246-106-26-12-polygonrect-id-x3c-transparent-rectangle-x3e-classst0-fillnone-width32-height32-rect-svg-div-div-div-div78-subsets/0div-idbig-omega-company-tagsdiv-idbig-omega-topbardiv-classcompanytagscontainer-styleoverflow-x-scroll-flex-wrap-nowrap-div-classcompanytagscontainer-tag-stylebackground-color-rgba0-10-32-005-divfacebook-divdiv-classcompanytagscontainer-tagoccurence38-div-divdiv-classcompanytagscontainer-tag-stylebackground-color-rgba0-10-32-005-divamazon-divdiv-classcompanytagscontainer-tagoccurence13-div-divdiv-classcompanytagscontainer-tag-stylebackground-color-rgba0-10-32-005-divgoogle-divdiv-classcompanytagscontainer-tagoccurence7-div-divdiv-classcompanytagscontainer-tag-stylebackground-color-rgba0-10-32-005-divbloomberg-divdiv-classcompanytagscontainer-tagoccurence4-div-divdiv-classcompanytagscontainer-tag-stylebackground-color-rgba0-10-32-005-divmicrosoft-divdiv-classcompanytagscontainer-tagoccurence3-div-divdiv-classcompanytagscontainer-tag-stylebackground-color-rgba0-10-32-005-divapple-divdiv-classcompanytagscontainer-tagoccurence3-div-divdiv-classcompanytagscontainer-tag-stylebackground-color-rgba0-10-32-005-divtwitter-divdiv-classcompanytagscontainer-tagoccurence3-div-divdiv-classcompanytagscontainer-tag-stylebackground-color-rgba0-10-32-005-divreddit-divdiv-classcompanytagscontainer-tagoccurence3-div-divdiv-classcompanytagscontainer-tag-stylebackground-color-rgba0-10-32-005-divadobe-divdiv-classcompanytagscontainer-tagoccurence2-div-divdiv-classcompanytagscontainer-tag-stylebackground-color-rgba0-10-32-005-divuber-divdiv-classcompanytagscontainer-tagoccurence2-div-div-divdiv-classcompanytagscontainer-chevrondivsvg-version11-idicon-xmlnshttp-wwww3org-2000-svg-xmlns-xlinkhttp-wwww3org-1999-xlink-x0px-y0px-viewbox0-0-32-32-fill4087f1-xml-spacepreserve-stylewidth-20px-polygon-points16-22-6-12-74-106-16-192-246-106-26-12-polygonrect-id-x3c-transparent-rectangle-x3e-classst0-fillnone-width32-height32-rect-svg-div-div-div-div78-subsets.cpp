@@ -8,6 +8,7 @@ public:
             res.push_back(lst);
             return;
         }
+        
         lst.push_back(nums[index]);
         helper(index+1, lst, res, nums, n);
         lst.pop_back();
