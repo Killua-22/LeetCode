@@ -14,8 +14,10 @@ public:
         if(i == candidates.size())
             return;
         
+        //skip the element
         helper(i+1, candidates, target, sol);
         
+        //take the ith element
         sol.push_back(candidates[i]);
         helper(i, candidates, target - candidates[i], sol);
         sol.pop_back();
