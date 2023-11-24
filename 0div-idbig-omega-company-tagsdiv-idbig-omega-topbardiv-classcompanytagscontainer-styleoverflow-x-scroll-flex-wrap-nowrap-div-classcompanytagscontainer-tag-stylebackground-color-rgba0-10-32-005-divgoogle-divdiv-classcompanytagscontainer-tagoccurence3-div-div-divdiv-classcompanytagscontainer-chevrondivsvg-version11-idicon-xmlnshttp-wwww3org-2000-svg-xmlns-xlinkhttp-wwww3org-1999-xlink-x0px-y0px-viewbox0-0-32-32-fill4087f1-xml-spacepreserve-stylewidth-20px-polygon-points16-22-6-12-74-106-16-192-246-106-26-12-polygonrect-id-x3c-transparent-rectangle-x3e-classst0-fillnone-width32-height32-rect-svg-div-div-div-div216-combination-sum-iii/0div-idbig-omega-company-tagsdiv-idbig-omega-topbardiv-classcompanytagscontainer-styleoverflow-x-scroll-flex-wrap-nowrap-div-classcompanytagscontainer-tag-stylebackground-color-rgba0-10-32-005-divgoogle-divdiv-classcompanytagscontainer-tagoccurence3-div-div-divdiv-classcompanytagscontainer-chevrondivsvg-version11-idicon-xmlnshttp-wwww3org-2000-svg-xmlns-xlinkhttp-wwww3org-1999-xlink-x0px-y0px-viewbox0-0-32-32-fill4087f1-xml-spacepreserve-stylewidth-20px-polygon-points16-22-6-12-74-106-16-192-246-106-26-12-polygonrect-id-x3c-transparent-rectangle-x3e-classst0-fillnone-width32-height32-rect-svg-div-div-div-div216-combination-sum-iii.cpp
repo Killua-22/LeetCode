@@ -7,12 +7,13 @@ public:
             ans.push_back(comb);
             return;
         }
-        for(int i=start;i<=9;i++){
+        
+        for(int i=start; i<=9; i++)
+        {
             comb.push_back(i);
-            backtrack(k-1,n-i,i+1,ans,comb);
+            backtrack(k-1, n-i, i+1, ans, comb);
             comb.pop_back();
         }
-        
     }
     
     vector<vector<int>> combinationSum3(int k, int n) {
