@@ -13,7 +13,7 @@ public:
                 
             }
             max_length = max(max_length, e-i-1);
-            cout<<max_length<<endl;
+            
         }
         
         return max_length;
