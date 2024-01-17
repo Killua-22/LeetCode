@@ -11,6 +11,7 @@ public:
             
             if(isdigit(ch)) {
                 long long int num = 0;
+                
                 while(i < s.size() && isdigit(s[i])) {
                     num = (num * 10) + s[i] - '0';
                     i++;
@@ -18,7 +19,6 @@ public:
                 i--;
                 sum += (num * sign);
                 sign = 1;
-                
             }
             else if(ch == '(') {
                 st.push(make_pair(sum, sign));
@@ -32,7 +32,7 @@ public:
             else if(ch == '-') {
                 sign = -1 * sign;
             }
-                      
+            
         }
         return sum;
     }
