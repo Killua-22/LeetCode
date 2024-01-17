@@ -12,8 +12,8 @@ public:
             for(int j=i+1; j<4; j++) {
                 int x = points[i][0] - points[j][0];
                 int y = points[i][1] - points[j][1];
-                    
-                int var = x * x + y * y; 
+                
+                int var = x * x + y * y;
                 
                 side2 = min(side2, var);
                 
