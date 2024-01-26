@@ -14,6 +14,7 @@ public:
     
    
     int rangeSumBST(TreeNode* root, int low, int high) {
+        
         if(root == NULL)
             return 0;
         
@@ -23,6 +24,7 @@ public:
         int right = rangeSumBST(root->right, low, high);
         
         return curr + left + right;
+        
         
     }
 };
