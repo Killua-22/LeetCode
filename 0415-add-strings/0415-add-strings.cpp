@@ -1,26 +1,25 @@
 class Solution {
 public:
     string addStrings(string num1, string num2) {
+        int one = num1.size()-1;
+        int two = num2.size()-1;
         int carry = 0;
-        int i = num1.length() - 1;
-        int j = num2.length() - 1;
+        string ans = "";
         
-        string res = "";
-        
-        while(i > -1 || j > -1 || carry != 0)
-        {
-            int a = i > -1 ? num1[i] - '0' : 0;
-            int b = j > -1 ? num2[j] - '0' : 0;
-            i--;
-            j--;
+        while(one > -1 || two > -1 || carry != 0) {
             
-            int sum = a + b + carry;
-            // string temp = to_string(sum % 10);
-            res.insert(0, to_string(sum % 10));
+            int temp1 = one > -1 ? num1[one] - '0' : 0;
+            int temp2 = two > -1 ? num2[two] - '0' : 0;
+            one--;
+            two--;
             
+            int sum = temp1 + temp2 + carry;
+            
+            ans.insert(0, to_string(sum % 10));
             carry = sum/10;
+            
         }
         
-        return res;
+        return ans;
     }
 };
