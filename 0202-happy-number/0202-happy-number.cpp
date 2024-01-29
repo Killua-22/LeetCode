@@ -2,37 +2,35 @@ class Solution {
 public:
     
     int square(int n) {
-        int sum = 0;
-        while(n > 0) {
+        
+        long long sq = 0;
+        while(n) {
             int temp = n % 10;
-            sum += temp * temp;
-            n = n/10;
+            sq += temp * temp;
+            n /= 10;
         }
         
-        return sum;
+        return sq;
     }
-
+    
     bool isHappy(int n) {
+        
         if(n==1)
             return true;
         
-        unordered_set<int> m;
+        unordered_set<int> us;
         
-        while(n != 1) {
-            
+        while(n != 1)
+        {
             int temp = square(n);
             
-            if(m.find(temp) != m.end()) 
+            if(us.find(temp) != us.end())
                 return false;
-            
-            m.insert(temp);
+            us.insert(temp);
             n = temp;
-            
         }
         
         return true;
         
-            
-            
     }
 };
