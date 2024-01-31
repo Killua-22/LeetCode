@@ -8,9 +8,7 @@ public:
             if(n%i==0) factors.push_back(i);
         }
         
-        if(factors.size() < k) return -1;
-        
-        return factors[k-1];
+        return k <= factors.size() ? factors[k-1] : -1;
         
     }
 };
