@@ -28,8 +28,7 @@ public:
         if(root->left != NULL) dfs(root->left, temp, res);
         if(root->right != NULL) dfs(root->right, temp, res);
         
-        temp.pop_back();
-        temp.pop_back();
+        
         
     }
     
