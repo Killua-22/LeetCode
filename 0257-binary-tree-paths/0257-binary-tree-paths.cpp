@@ -19,7 +19,7 @@ public:
             temp += to_string(root->val);
             res.push_back(temp);
             
-            temp.pop_back();
+            // temp.pop_back();
             return;
         }
         temp += to_string(root->val);
