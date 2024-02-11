@@ -2,21 +2,29 @@ class Solution {
 public:
     bool isPalindrome(string s) {
         
-        vector<char> arr1, arr2;
+        int start = 0;
+        int end = s.size() -1;
         
-        for(int i=0; i<s.size(); i++) {
+        while(start < end) {
             
-            if(isalnum(s[i])) {
-                
-                arr1.push_back(tolower(s[i]));
+            if(!isalnum(s[start])) {
+                start++;
+                continue;
+            }
+            if(!isalnum(s[end])) {
+                end--;
+                continue;
+            }
+            if(tolower(s[start]) != tolower(s[end])) {
+                return false;
+            }
+            else {
+                start++;
+                end--;
             }
             
-            
         }
-        arr2 = arr1;
-        reverse(arr1.begin(), arr1.end());
         
-        return arr1 == arr2;
-        
+        return true;
     }
 };
