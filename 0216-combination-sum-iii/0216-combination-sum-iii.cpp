@@ -8,10 +8,10 @@ public:
             return;
         }
         
-        // if(lst.size() == k) 
-        // { 
-        //     return;
-        // }
+        if(lst.size() == k) 
+        { 
+            return;
+        }
         
         if(n < 0)
             return;
