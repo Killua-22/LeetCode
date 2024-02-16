@@ -1,13 +1,11 @@
 class Solution {
 public:
-    
-    
 
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
        
         int n=strs.size();
         
-        map<vector<int>, vector<int>> freq2idx;
+        map<vector<int>, vector<int>> freq;
         
         for(int i=0; i<n; i++){
             
@@ -17,13 +15,12 @@ public:
                 cnt[c-'a']++;
             }
             
-            if (freq2idx.count(cnt)==0) freq2idx[cnt]={i};
-            
-            else freq2idx[cnt].push_back(i);
+            if (freq.count(cnt)==0) freq[cnt]={i};
+            else freq[cnt].push_back(i);
         }
-        vector<vector<string>> ans(freq2idx.size());
+        vector<vector<string>> ans(freq.size());
         int i=0; 
-        for(auto x: freq2idx){
+        for(auto x: freq){
             for(int v: x.second)
                 ans[i].push_back(strs[v]); 
             i++;
