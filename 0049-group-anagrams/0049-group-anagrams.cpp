@@ -25,7 +25,7 @@ public:
                 ans[i].push_back(strs[v]); 
             i++;
         }  
-        return move(ans);
+        return ans;
         
     }
 };
