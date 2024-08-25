@@ -19,4 +19,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Killua-22/LeetCode/tree/master/0098-validate-binary-search-tree) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/Killua-22/LeetCode/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/Killua-22/LeetCode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
