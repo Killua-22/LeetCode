@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Killua-22/LeetCode/tree/master/0098-validate-binary-search-tree) |
+| [0133-clone-graph](https://github.com/Killua-22/LeetCode/tree/master/0133-clone-graph) |
 | [0695-max-area-of-island](https://github.com/Killua-22/LeetCode/tree/master/0695-max-area-of-island) |
 ## Binary Search Tree
 |  |
@@ -45,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0133-clone-graph](https://github.com/Killua-22/LeetCode/tree/master/0133-clone-graph) |
 | [0695-max-area-of-island](https://github.com/Killua-22/LeetCode/tree/master/0695-max-area-of-island) |
 ## Union Find
 |  |
@@ -54,4 +56,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0695-max-area-of-island](https://github.com/Killua-22/LeetCode/tree/master/0695-max-area-of-island) |
+## Hash Table
+|  |
+| ------- |
+| [0133-clone-graph](https://github.com/Killua-22/LeetCode/tree/master/0133-clone-graph) |
+## Graph
+|  |
+| ------- |
+| [0133-clone-graph](https://github.com/Killua-22/LeetCode/tree/master/0133-clone-graph) |
 <!---LeetCode Topics End-->
