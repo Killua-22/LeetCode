@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/Killua-22/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0130-surrounded-regions](https://github.com/Killua-22/LeetCode/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/Killua-22/LeetCode/tree/master/0133-clone-graph) |
+| [0207-course-schedule](https://github.com/Killua-22/LeetCode/tree/master/0207-course-schedule) |
 | [0695-max-area-of-island](https://github.com/Killua-22/LeetCode/tree/master/0695-max-area-of-island) |
 ## Binary Search Tree
 |  |
@@ -50,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0130-surrounded-regions](https://github.com/Killua-22/LeetCode/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/Killua-22/LeetCode/tree/master/0133-clone-graph) |
+| [0207-course-schedule](https://github.com/Killua-22/LeetCode/tree/master/0207-course-schedule) |
 | [0695-max-area-of-island](https://github.com/Killua-22/LeetCode/tree/master/0695-max-area-of-island) |
 ## Union Find
 |  |
@@ -69,4 +71,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/Killua-22/LeetCode/tree/master/0133-clone-graph) |
+| [0207-course-schedule](https://github.com/Killua-22/LeetCode/tree/master/0207-course-schedule) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/Killua-22/LeetCode/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
