@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Killua-22/LeetCode/tree/master/0098-validate-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Killua-22/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -19,12 +20,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Killua-22/LeetCode/tree/master/0098-validate-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Killua-22/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0792-binary-search](https://github.com/Killua-22/LeetCode/tree/master/0792-binary-search) |
 | [1023-time-based-key-value-store](https://github.com/Killua-22/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Binary Tree
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Killua-22/LeetCode/tree/master/0098-validate-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Killua-22/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Linked List
 |  |
 | ------- |
@@ -44,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/Killua-22/LeetCode/tree/master/0155-min-stack) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Killua-22/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1023-time-based-key-value-store](https://github.com/Killua-22/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Array
 |  |
@@ -97,4 +101,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/Killua-22/LeetCode/tree/master/0678-valid-parenthesis-string) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Killua-22/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Killua-22/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
