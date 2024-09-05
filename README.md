@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Killua-22/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/Killua-22/LeetCode/tree/master/0206-reverse-linked-list) |
+| [0355-design-twitter](https://github.com/Killua-22/LeetCode/tree/master/0355-design-twitter) |
 ## Recursion
 |  |
 | ------- |
@@ -47,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/Killua-22/LeetCode/tree/master/0155-min-stack) |
+| [0355-design-twitter](https://github.com/Killua-22/LeetCode/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Killua-22/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1023-time-based-key-value-store](https://github.com/Killua-22/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Array
@@ -80,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/Killua-22/LeetCode/tree/master/0133-clone-graph) |
+| [0355-design-twitter](https://github.com/Killua-22/LeetCode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/Killua-22/LeetCode/tree/master/0621-task-scheduler) |
 | [1023-time-based-key-value-store](https://github.com/Killua-22/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Graph
@@ -109,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0355-design-twitter](https://github.com/Killua-22/LeetCode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/Killua-22/LeetCode/tree/master/0621-task-scheduler) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Killua-22/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/Killua-22/LeetCode/tree/master/1014-k-closest-points-to-origin) |
