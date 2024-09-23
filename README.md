@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Killua-22/LeetCode/tree/master/0098-validate-binary-search-tree) |
+| [0300-longest-increasing-subsequence](https://github.com/Killua-22/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Killua-22/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0792-binary-search](https://github.com/Killua-22/LeetCode/tree/master/0792-binary-search) |
 | [1023-time-based-key-value-store](https://github.com/Killua-22/LeetCode/tree/master/1023-time-based-key-value-store) |
@@ -55,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/Killua-22/LeetCode/tree/master/0130-surrounded-regions) |
+| [0300-longest-increasing-subsequence](https://github.com/Killua-22/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Killua-22/LeetCode/tree/master/0322-coin-change) |
 | [0621-task-scheduler](https://github.com/Killua-22/LeetCode/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/Killua-22/LeetCode/tree/master/0695-max-area-of-island) |
@@ -118,6 +120,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/Killua-22/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0091-decode-ways](https://github.com/Killua-22/LeetCode/tree/master/0091-decode-ways) |
 | [0131-palindrome-partitioning](https://github.com/Killua-22/LeetCode/tree/master/0131-palindrome-partitioning) |
+| [0300-longest-increasing-subsequence](https://github.com/Killua-22/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Killua-22/LeetCode/tree/master/0322-coin-change) |
 | [0678-valid-parenthesis-string](https://github.com/Killua-22/LeetCode/tree/master/0678-valid-parenthesis-string) |
 ## Heap (Priority Queue)
