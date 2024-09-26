@@ -114,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0131-palindrome-partitioning](https://github.com/Killua-22/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0678-valid-parenthesis-string](https://github.com/Killua-22/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [1023-time-based-key-value-store](https://github.com/Killua-22/LeetCode/tree/master/1023-time-based-key-value-store) |
+| [1250-longest-common-subsequence](https://github.com/Killua-22/LeetCode/tree/master/1250-longest-common-subsequence) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -124,6 +125,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/Killua-22/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Killua-22/LeetCode/tree/master/0322-coin-change) |
 | [0678-valid-parenthesis-string](https://github.com/Killua-22/LeetCode/tree/master/0678-valid-parenthesis-string) |
+| [1250-longest-common-subsequence](https://github.com/Killua-22/LeetCode/tree/master/1250-longest-common-subsequence) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
