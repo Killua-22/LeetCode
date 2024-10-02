@@ -1,31 +1,33 @@
 class Solution {
 public:
+    bool isInterleave(string s1, string s2, string s3) {
+        int i1 = s1.size();
+        int i2 = s2.size();
+        int i3 = s3.size();
 
-    vector<vector<vector<int>>> dp;
-
-    bool helper(int i1, int i2, int i3, string s1, string s2, string s3) {
+        if(i1+i2 != i3) 
+            return false;
         
-        if(i3 == s3.size()){
-            return i1 == s1.size() && i2 == s2.size();
+        vector<vector<bool>> dp(i1+1, vector<bool>(i2+1));
+        dp[0][0] = true;
+
+        for(int i=1; i<=i1; i++) {
+            dp[i][0] = dp[i-1][0] and s1[i-1] == s3[i-1];
         }
 
-        if(dp[i1][i2][i3] != -1) return dp[i1][i2][i3];
+        for(int j=1; j<=i2; j++) 
+        {
+            dp[0][j] = dp[0][j-1] and s2[j-1] == s3[j-1];
+        }
 
-        bool res = false;
+        for(int i=1; i<=i1; i++) 
+        {
+            for(int j=1; j<=i2; j++) 
+            {
+                dp[i][j] = (dp[i-1][j] and s1[i-1] == s3[i+j-1]) or (dp[i][j-1] and s2[j-1] == s3[i+j-1]);
+            }
+        }
 
-        if(i1<s1.size() && s1[i1] == s3[i3])
-            res = helper(i1+1, i2, i3+1, s1, s2, s3);
-        
-        if(!res && i2<s2.size() && s2[i2] == s3[i3])
-            res = helper(i1, i2+1, i3+1, s1, s2, s3);
-
-        return dp[i1][i2][i3] = res;
-    }
-
-    bool isInterleave(string s1, string s2, string s3) {
-        if (s1.size() + s2.size() != s3.size()) return false;
-
-        dp.resize(s1.size() + 1, vector<vector<int>>(s2.size() + 1, vector<int>(s3.size() + 1, -1)));
-        return helper(0, 0, 0, s1, s2, s3);
+        return dp[i1][i2];
     }
 };
