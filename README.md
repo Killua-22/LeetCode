@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/Killua-22/LeetCode/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/Killua-22/LeetCode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/Killua-22/LeetCode/tree/master/0207-course-schedule) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Killua-22/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0695-max-area-of-island](https://github.com/Killua-22/LeetCode/tree/master/0695-max-area-of-island) |
 ## Binary Search Tree
 |  |
@@ -59,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/Killua-22/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Killua-22/LeetCode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/Killua-22/LeetCode/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Killua-22/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0494-target-sum](https://github.com/Killua-22/LeetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Killua-22/LeetCode/tree/master/0518-coin-change-ii) |
 | [0621-task-scheduler](https://github.com/Killua-22/LeetCode/tree/master/0621-task-scheduler) |
@@ -74,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/Killua-22/LeetCode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/Killua-22/LeetCode/tree/master/0207-course-schedule) |
 | [0322-coin-change](https://github.com/Killua-22/LeetCode/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Killua-22/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0695-max-area-of-island](https://github.com/Killua-22/LeetCode/tree/master/0695-max-area-of-island) |
 ## Union Find
 |  |
@@ -84,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/Killua-22/LeetCode/tree/master/0130-surrounded-regions) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Killua-22/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0695-max-area-of-island](https://github.com/Killua-22/LeetCode/tree/master/0695-max-area-of-island) |
 ## Hash Table
 |  |
@@ -98,10 +102,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0133-clone-graph](https://github.com/Killua-22/LeetCode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/Killua-22/LeetCode/tree/master/0207-course-schedule) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Killua-22/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Killua-22/LeetCode/tree/master/0207-course-schedule) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Killua-22/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Greedy
 |  |
 | ------- |
@@ -130,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/Killua-22/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Killua-22/LeetCode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/Killua-22/LeetCode/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Killua-22/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0494-target-sum](https://github.com/Killua-22/LeetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Killua-22/LeetCode/tree/master/0518-coin-change-ii) |
 | [0678-valid-parenthesis-string](https://github.com/Killua-22/LeetCode/tree/master/0678-valid-parenthesis-string) |
@@ -186,4 +193,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Killua-22/LeetCode/tree/master/0062-unique-paths) |
+## Memoization
+|  |
+| ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Killua-22/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 <!---LeetCode Topics End-->
