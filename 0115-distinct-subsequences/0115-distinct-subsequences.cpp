@@ -1,50 +1,25 @@
 class Solution {
 public:
+    int dp[1001][1001];
 
-    int numDistinct(string s, string t) {
-        int n = s.size();
-        int m = t.size();
+    int helper(int idx, int t_idx, string& s, string& t) {
+        if(t_idx >= t.size())
+            return 1;
+        if(idx >= s.size())
+            return 0;
 
-        vector<vector<unsigned long long>> dp(n+1, vector<unsigned long long>(m+1, 0));
+        if(dp[idx][t_idx] != -1)
+            return dp[idx][t_idx];
         
-        for(int i=0; i<=n; i++) {
-            dp[i][0] = 1;
-        }
-
-        for(int i=1; i<=n; i++) {
-            for(int j=1; j<=m; j++) {
-                if(s[i-1] == t[j-1])
-                    dp[i][j] = dp[i-1][j-1] + dp[i-1][j];
-                else 
-                    dp[i][j] = dp[i-1][j];
-            }
-        }
-
-        return dp[n][m];
+        int res1 = helper(idx+1, t_idx, s, t);
+        if(s[idx] == t[t_idx])
+            res1 += helper(idx+1, t_idx+1, s, t);
+        
+        return dp[idx][t_idx] = res1;
     }
 
-
-    // void helper(int idx, int t_idx, string s, string t, int& count) {
-
-    //     if(t_idx == t.size())
-    //     {
-    //         count++;
-    //         return;
-    //     }
-
-    //     if(idx >= s.size())
-    //         return;
-        
-    //     if(s[idx] == t[t_idx])
-    //         helper(idx+1, t_idx+1, s, t, count);
-        
-    //     helper(idx+1, t_idx, s, t, count);
-    // }
-
-    // int numDistinct(string s, string t) {
-    //     int count = 0;
-        
-    //     helper(0, 0, s, t, count);
-    //     return count;
-    // }
+    int numDistinct(string s, string t) {
+        memset(dp, -1, sizeof(dp));
+        return helper(0, 0, s, t);
+    }
 };
