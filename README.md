@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0155-min-stack](https://github.com/Killua-22/LeetCode/tree/master/0155-min-stack) |
 | [0678-valid-parenthesis-string](https://github.com/Killua-22/LeetCode/tree/master/0678-valid-parenthesis-string) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Killua-22/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Design
 |  |
 | ------- |
@@ -114,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/Killua-22/LeetCode/tree/master/0621-task-scheduler) |
 | [0678-valid-parenthesis-string](https://github.com/Killua-22/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/Killua-22/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Killua-22/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## String
 |  |
 | ------- |
@@ -127,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0678-valid-parenthesis-string](https://github.com/Killua-22/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [1023-time-based-key-value-store](https://github.com/Killua-22/LeetCode/tree/master/1023-time-based-key-value-store) |
 | [1250-longest-common-subsequence](https://github.com/Killua-22/LeetCode/tree/master/1250-longest-common-subsequence) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Killua-22/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -193,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Killua-22/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Killua-22/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Combinatorics
 |  |
 | ------- |
