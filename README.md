@@ -62,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Killua-22/LeetCode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/Killua-22/LeetCode/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Killua-22/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0347-top-k-frequent-elements](https://github.com/Killua-22/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0494-target-sum](https://github.com/Killua-22/LeetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Killua-22/LeetCode/tree/master/0518-coin-change-ii) |
 | [0621-task-scheduler](https://github.com/Killua-22/LeetCode/tree/master/0621-task-scheduler) |
@@ -95,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Killua-22/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0133-clone-graph](https://github.com/Killua-22/LeetCode/tree/master/0133-clone-graph) |
+| [0347-top-k-frequent-elements](https://github.com/Killua-22/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/Killua-22/LeetCode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/Killua-22/LeetCode/tree/master/0621-task-scheduler) |
 | [1023-time-based-key-value-store](https://github.com/Killua-22/LeetCode/tree/master/1023-time-based-key-value-store) |
@@ -151,6 +153,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Killua-22/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/Killua-22/LeetCode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/Killua-22/LeetCode/tree/master/0621-task-scheduler) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Killua-22/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -168,6 +171,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Divide and Conquer
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Killua-22/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/Killua-22/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 ## Geometry
 |  |
@@ -176,15 +180,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Killua-22/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/Killua-22/LeetCode/tree/master/0621-task-scheduler) |
 | [1014-k-closest-points-to-origin](https://github.com/Killua-22/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 ## Quickselect
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Killua-22/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/Killua-22/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Killua-22/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/Killua-22/LeetCode/tree/master/0621-task-scheduler) |
 ## Backtracking
 |  |
@@ -205,4 +212,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Killua-22/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Killua-22/LeetCode/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
