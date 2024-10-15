@@ -57,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Killua-22/LeetCode/tree/master/0036-valid-sudoku) |
 | [0130-surrounded-regions](https://github.com/Killua-22/LeetCode/tree/master/0130-surrounded-regions) |
 | [0300-longest-increasing-subsequence](https://github.com/Killua-22/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Killua-22/LeetCode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -88,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Killua-22/LeetCode/tree/master/0036-valid-sudoku) |
 | [0130-surrounded-regions](https://github.com/Killua-22/LeetCode/tree/master/0130-surrounded-regions) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Killua-22/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0695-max-area-of-island](https://github.com/Killua-22/LeetCode/tree/master/0695-max-area-of-island) |
@@ -95,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Killua-22/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0036-valid-sudoku](https://github.com/Killua-22/LeetCode/tree/master/0036-valid-sudoku) |
 | [0133-clone-graph](https://github.com/Killua-22/LeetCode/tree/master/0133-clone-graph) |
 | [0347-top-k-frequent-elements](https://github.com/Killua-22/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/Killua-22/LeetCode/tree/master/0355-design-twitter) |
