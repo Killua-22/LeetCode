@@ -58,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Killua-22/LeetCode/tree/master/0015-3sum) |
 | [0036-valid-sudoku](https://github.com/Killua-22/LeetCode/tree/master/0036-valid-sudoku) |
 | [0130-surrounded-regions](https://github.com/Killua-22/LeetCode/tree/master/0130-surrounded-regions) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Killua-22/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -185,6 +186,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Killua-22/LeetCode/tree/master/0015-3sum) |
 | [0347-top-k-frequent-elements](https://github.com/Killua-22/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/Killua-22/LeetCode/tree/master/0621-task-scheduler) |
 | [1014-k-closest-points-to-origin](https://github.com/Killua-22/LeetCode/tree/master/1014-k-closest-points-to-origin) |
@@ -208,6 +210,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Killua-22/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0015-3sum](https://github.com/Killua-22/LeetCode/tree/master/0015-3sum) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Killua-22/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Killua-22/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Combinatorics
